@@ -7,21 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0250B6861E88F1AC00D2EA92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0250B6851E88F1AC00D2EA92 /* AppDelegate.swift */; };
-		0250B6881E88F1AC00D2EA92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0250B6871E88F1AC00D2EA92 /* ViewController.swift */; };
-		0250B68B1E88F1AC00D2EA92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0250B6891E88F1AC00D2EA92 /* Main.storyboard */; };
-		0250B68D1E88F1AC00D2EA92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0250B68C1E88F1AC00D2EA92 /* Assets.xcassets */; };
-		0250B6901E88F1AC00D2EA92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0250B68E1E88F1AC00D2EA92 /* LaunchScreen.storyboard */; };
+		D18A26C51EDBBEE9007C9484 /* AnimationDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18A26B71EDBBEE9007C9484 /* AnimationDraw.swift */; };
+		D18A26C61EDBBEE9007C9484 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18A26B81EDBBEE9007C9484 /* AppDelegate.swift */; };
+		D18A26C71EDBBEE9007C9484 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D18A26B91EDBBEE9007C9484 /* Assets.xcassets */; };
+		D18A26C81EDBBEE9007C9484 /* CircleLoad.pcvd in Resources */ = {isa = PBXBuildFile; fileRef = D18A26BA1EDBBEE9007C9484 /* CircleLoad.pcvd */; };
+		D18A26C91EDBBEE9007C9484 /* CircleLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18A26BB1EDBBEE9007C9484 /* CircleLoad.swift */; };
+		D18A26CA1EDBBEE9007C9484 /* circleLoadDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18A26BC1EDBBEE9007C9484 /* circleLoadDraw.swift */; };
+		D18A26CB1EDBBEE9007C9484 /* FloatingAnimation.pcvd in Resources */ = {isa = PBXBuildFile; fileRef = D18A26BD1EDBBEE9007C9484 /* FloatingAnimation.pcvd */; };
+		D18A26CC1EDBBEE9007C9484 /* FloatingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18A26BE1EDBBEE9007C9484 /* FloatingAnimation.swift */; };
+		D18A26CD1EDBBEE9007C9484 /* FloatingAnimationKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18A26BF1EDBBEE9007C9484 /* FloatingAnimationKit.swift */; };
+		D18A26CE1EDBBEE9007C9484 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D18A26C01EDBBEE9007C9484 /* Info.plist */; };
+		D18A26CF1EDBBEE9007C9484 /* RequestAnimation.pcvd in Resources */ = {isa = PBXBuildFile; fileRef = D18A26C11EDBBEE9007C9484 /* RequestAnimation.pcvd */; };
+		D18A26D01EDBBEE9007C9484 /* StyleKitName.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18A26C21EDBBEE9007C9484 /* StyleKitName.swift */; };
+		D18A26D11EDBBEE9007C9484 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18A26C31EDBBEE9007C9484 /* ViewController.swift */; };
+		D18A26D21EDBBEE9007C9484 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18A26C41EDBBEE9007C9484 /* ViewController2.swift */; };
+		D18A26D71EDBBEF6007C9484 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D18A26D31EDBBEF6007C9484 /* LaunchScreen.storyboard */; };
+		D18A26D81EDBBEF6007C9484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D18A26D51EDBBEF6007C9484 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0250B6821E88F1AC00D2EA92 /* CircleLoad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleLoad.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0250B6851E88F1AC00D2EA92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0250B6871E88F1AC00D2EA92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0250B68A1E88F1AC00D2EA92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0250B68C1E88F1AC00D2EA92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0250B68F1E88F1AC00D2EA92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0250B6911E88F1AC00D2EA92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D18A26B61EDBBEE8007C9484 /* CircleLoad-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CircleLoad-Bridging-Header.h"; sourceTree = "<group>"; };
+		D18A26B71EDBBEE9007C9484 /* AnimationDraw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationDraw.swift; sourceTree = "<group>"; };
+		D18A26B81EDBBEE9007C9484 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D18A26B91EDBBEE9007C9484 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D18A26BA1EDBBEE9007C9484 /* CircleLoad.pcvd */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = CircleLoad.pcvd; sourceTree = "<group>"; };
+		D18A26BB1EDBBEE9007C9484 /* CircleLoad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleLoad.swift; sourceTree = "<group>"; };
+		D18A26BC1EDBBEE9007C9484 /* circleLoadDraw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = circleLoadDraw.swift; sourceTree = "<group>"; };
+		D18A26BD1EDBBEE9007C9484 /* FloatingAnimation.pcvd */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = FloatingAnimation.pcvd; sourceTree = "<group>"; };
+		D18A26BE1EDBBEE9007C9484 /* FloatingAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingAnimation.swift; sourceTree = "<group>"; };
+		D18A26BF1EDBBEE9007C9484 /* FloatingAnimationKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingAnimationKit.swift; sourceTree = "<group>"; };
+		D18A26C01EDBBEE9007C9484 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D18A26C11EDBBEE9007C9484 /* RequestAnimation.pcvd */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = RequestAnimation.pcvd; sourceTree = "<group>"; };
+		D18A26C21EDBBEE9007C9484 /* StyleKitName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleKitName.swift; sourceTree = "<group>"; };
+		D18A26C31EDBBEE9007C9484 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D18A26C41EDBBEE9007C9484 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		D18A26D41EDBBEF6007C9484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D18A26D61EDBBEF6007C9484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +76,23 @@
 		0250B6841E88F1AC00D2EA92 /* CircleLoad */ = {
 			isa = PBXGroup;
 			children = (
-				0250B6851E88F1AC00D2EA92 /* AppDelegate.swift */,
-				0250B6871E88F1AC00D2EA92 /* ViewController.swift */,
-				0250B6891E88F1AC00D2EA92 /* Main.storyboard */,
-				0250B68C1E88F1AC00D2EA92 /* Assets.xcassets */,
-				0250B68E1E88F1AC00D2EA92 /* LaunchScreen.storyboard */,
-				0250B6911E88F1AC00D2EA92 /* Info.plist */,
+				D18A26D31EDBBEF6007C9484 /* LaunchScreen.storyboard */,
+				D18A26D51EDBBEF6007C9484 /* Main.storyboard */,
+				D18A26B71EDBBEE9007C9484 /* AnimationDraw.swift */,
+				D18A26B81EDBBEE9007C9484 /* AppDelegate.swift */,
+				D18A26B91EDBBEE9007C9484 /* Assets.xcassets */,
+				D18A26BA1EDBBEE9007C9484 /* CircleLoad.pcvd */,
+				D18A26BB1EDBBEE9007C9484 /* CircleLoad.swift */,
+				D18A26BC1EDBBEE9007C9484 /* circleLoadDraw.swift */,
+				D18A26BD1EDBBEE9007C9484 /* FloatingAnimation.pcvd */,
+				D18A26BE1EDBBEE9007C9484 /* FloatingAnimation.swift */,
+				D18A26BF1EDBBEE9007C9484 /* FloatingAnimationKit.swift */,
+				D18A26C01EDBBEE9007C9484 /* Info.plist */,
+				D18A26C11EDBBEE9007C9484 /* RequestAnimation.pcvd */,
+				D18A26C21EDBBEE9007C9484 /* StyleKitName.swift */,
+				D18A26C31EDBBEE9007C9484 /* ViewController.swift */,
+				D18A26C41EDBBEE9007C9484 /* ViewController2.swift */,
+				D18A26B61EDBBEE8007C9484 /* CircleLoad-Bridging-Header.h */,
 			);
 			path = CircleLoad;
 			sourceTree = "<group>";
@@ -97,6 +130,7 @@
 					0250B6811E88F1AC00D2EA92 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = DEE97ABVRX;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,9 +158,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0250B6901E88F1AC00D2EA92 /* LaunchScreen.storyboard in Resources */,
-				0250B68D1E88F1AC00D2EA92 /* Assets.xcassets in Resources */,
-				0250B68B1E88F1AC00D2EA92 /* Main.storyboard in Resources */,
+				D18A26D81EDBBEF6007C9484 /* Main.storyboard in Resources */,
+				D18A26CE1EDBBEE9007C9484 /* Info.plist in Resources */,
+				D18A26CB1EDBBEE9007C9484 /* FloatingAnimation.pcvd in Resources */,
+				D18A26C81EDBBEE9007C9484 /* CircleLoad.pcvd in Resources */,
+				D18A26D71EDBBEF6007C9484 /* LaunchScreen.storyboard in Resources */,
+				D18A26CF1EDBBEE9007C9484 /* RequestAnimation.pcvd in Resources */,
+				D18A26C71EDBBEE9007C9484 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,28 +175,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0250B6881E88F1AC00D2EA92 /* ViewController.swift in Sources */,
-				0250B6861E88F1AC00D2EA92 /* AppDelegate.swift in Sources */,
+				D18A26C61EDBBEE9007C9484 /* AppDelegate.swift in Sources */,
+				D18A26CD1EDBBEE9007C9484 /* FloatingAnimationKit.swift in Sources */,
+				D18A26D21EDBBEE9007C9484 /* ViewController2.swift in Sources */,
+				D18A26CC1EDBBEE9007C9484 /* FloatingAnimation.swift in Sources */,
+				D18A26C51EDBBEE9007C9484 /* AnimationDraw.swift in Sources */,
+				D18A26C91EDBBEE9007C9484 /* CircleLoad.swift in Sources */,
+				D18A26CA1EDBBEE9007C9484 /* circleLoadDraw.swift in Sources */,
+				D18A26D11EDBBEE9007C9484 /* ViewController.swift in Sources */,
+				D18A26D01EDBBEE9007C9484 /* StyleKitName.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0250B6891E88F1AC00D2EA92 /* Main.storyboard */ = {
+		D18A26D31EDBBEF6007C9484 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0250B68A1E88F1AC00D2EA92 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0250B68E1E88F1AC00D2EA92 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0250B68F1E88F1AC00D2EA92 /* Base */,
+				D18A26D41EDBBEF6007C9484 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D18A26D51EDBBEF6007C9484 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D18A26D61EDBBEF6007C9484 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -261,11 +306,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = DEE97ABVRX;
 				INFOPLIST_FILE = CircleLoad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.2nt.CircleLoad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CircleLoad/CircleLoad-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -274,11 +322,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = DEE97ABVRX;
 				INFOPLIST_FILE = CircleLoad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.2nt.CircleLoad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CircleLoad/CircleLoad-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +352,7 @@
 				0250B6961E88F1AC00D2EA92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
